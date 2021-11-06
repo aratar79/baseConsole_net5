@@ -10,3 +10,8 @@ C:\Users\aratar79\source\repos\baseConsole_net5\src\Services\obj\Debug\net5.0\Se
 C:\Users\aratar79\source\repos\baseConsole_net5\src\Services\obj\Debug\net5.0\Services.dll
 C:\Users\aratar79\source\repos\baseConsole_net5\src\Services\obj\Debug\net5.0\ref\Services.dll
 C:\Users\aratar79\source\repos\baseConsole_net5\src\Services\obj\Debug\net5.0\Services.pdb
+C:\Users\aratar79\source\repos\baseConsole_net5\src\Services\bin\Debug\net5.0\Models.Domain.dll
+C:\Users\aratar79\source\repos\baseConsole_net5\src\Services\bin\Debug\net5.0\Orm.DataBase.dll
+C:\Users\aratar79\source\repos\baseConsole_net5\src\Services\bin\Debug\net5.0\Models.Domain.pdb
+C:\Users\aratar79\source\repos\baseConsole_net5\src\Services\bin\Debug\net5.0\Orm.DataBase.pdb
+C:\Users\aratar79\source\repos\baseConsole_net5\src\Services\obj\Debug\net5.0\Services.csproj.CopyComplete

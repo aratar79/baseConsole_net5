@@ -18,7 +18,7 @@ namespace Services
             _logger.LogInformation("MainService................................run!");
             _logger.LogInformation("");
             _logger.LogInformation(_config.GetValue<string>("TestString"));
-            Console.ReadKey();
+
         }
     }
 }

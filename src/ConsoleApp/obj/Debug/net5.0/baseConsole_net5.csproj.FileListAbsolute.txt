@@ -101,3 +101,17 @@ C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\obj\Debug\net5.0\
 C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\appsettings.json
 C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\Services.dll
 C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\Services.pdb
+C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\Humanizer.dll
+C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\MySqlConnector.dll
+C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\Models.Domain.dll
+C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\Orm.DataBase.dll
+C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\Models.Domain.pdb
+C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\Orm.DataBase.pdb

@@ -9,4 +9,9 @@
     <PackageReference Include="Serilog.Settings.Configuration" Version="3.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Models.Domain\Models.Domain.csproj" />
+    <ProjectReference Include="..\Orm.DataBase\Orm.DataBase.csproj" />
+  </ItemGroup>
+
 </Project>
