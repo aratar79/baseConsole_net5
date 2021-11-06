@@ -5,6 +5,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Serilog;
 using Services;
+using Microsoft.EntityFrameworkCore;
+using Orm.DataBase;
 
 namespace baseConsole_net5
 {
@@ -16,7 +18,7 @@ namespace baseConsole_net5
             var main = ActivatorUtilities.CreateInstance<MainService>(host.Services);
             main.Run();
         }
-        
+
         static void ConfigSetup(IConfigurationBuilder builder)
         {
             builder.SetBasePath(Directory.GetCurrentDirectory())
@@ -29,18 +31,25 @@ namespace baseConsole_net5
             ConfigurationBuilder builder = new ConfigurationBuilder();
             ConfigSetup(builder);
 
+            IConfiguration configuration = builder.Build();
+
+            
+
             // definig Serilog Configs
             Log.Logger = new LoggerConfiguration()
                 .ReadFrom.Configuration(builder.Build())
                 .Enrich.FromLogContext()
                 .WriteTo.Console()
                 .CreateLogger();
-            
+
             Log.Information("Create and config Host.");
             Log.Information(Directory.GetCurrentDirectory().ToString());
             // DI Container
             var host = Host.CreateDefaultBuilder()
-                        .ConfigureServices((ContextBoundObject, services) => {
+                        .ConfigureServices((ContextBoundObject, services) =>
+                        {
+                            services.AddDbContext<ApplicationDBContext>(options => options.UseMySql(configuration.GetConnectionString("DefaultConnection"), MySqlServerVersion.LatestSupportedServerVersion));
+
                             services.AddTransient<MainService>();
                         })
                         .UseSerilog()
