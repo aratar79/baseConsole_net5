@@ -13,3 +13,6 @@ C:\Users\aratar79\source\repos\baseConsole_net5\src\Orm.DataBase\obj\Debug\net5.
 C:\Users\aratar79\source\repos\baseConsole_net5\src\Orm.DataBase\obj\Debug\net5.0\Orm.DataBase.dll
 C:\Users\aratar79\source\repos\baseConsole_net5\src\Orm.DataBase\obj\Debug\net5.0\ref\Orm.DataBase.dll
 C:\Users\aratar79\source\repos\baseConsole_net5\src\Orm.DataBase\obj\Debug\net5.0\Orm.DataBase.pdb
+C:\Users\aratar79\source\repos\baseConsole_net5\src\Orm.DataBase\bin\Debug\net5.0\Orm.DataBase.runtimeconfig.json
+C:\Users\aratar79\source\repos\baseConsole_net5\src\Orm.DataBase\bin\Debug\net5.0\Orm.DataBase.runtimeconfig.dev.json
+C:\Users\aratar79\source\repos\baseConsole_net5\src\Orm.DataBase\obj\Debug\net5.0\Orm.DataBase.genruntimeconfig.cache

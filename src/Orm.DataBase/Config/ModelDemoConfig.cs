@@ -14,11 +14,13 @@ namespace Orm.DataBase.Config
             entityTypeBuilder.HasData(
                 new ModelDemo
                 {
+                    Id = 1,
                     NameModel = "Name demo 1",
                     Description = "Description demo 1"
                 },
                 new ModelDemo
                 {
+                    Id = 2,
                     NameModel = "Name demo 2",
                     Description = "Description demo 2"
                 }

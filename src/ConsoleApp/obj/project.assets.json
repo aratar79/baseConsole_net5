@@ -2024,8 +2024,10 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Microsoft.EntityFrameworkCore.Design >= 5.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.11",
       "Microsoft.Extensions.Hosting >= 5.0.0",
+      "Orm.DataBase >= 1.0.0",
       "Serilog.Extensions.Hosting >= 4.1.2",
       "Serilog.Settings.Configuration >= 3.3.0",
       "Serilog.Sinks.Console >= 4.0.0",
@@ -2069,6 +2071,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
+            "C:\\Users\\aratar79\\source\\repos\\baseConsole_net5\\src\\Orm.DataBase\\Orm.DataBase.csproj": {
+              "projectPath": "C:\\Users\\aratar79\\source\\repos\\baseConsole_net5\\src\\Orm.DataBase\\Orm.DataBase.csproj"
+            },
             "C:\\Users\\aratar79\\source\\repos\\baseConsole_net5\\src\\Services\\Services.csproj": {
               "projectPath": "C:\\Users\\aratar79\\source\\repos\\baseConsole_net5\\src\\Services\\Services.csproj"
             }
@@ -2085,6 +2090,12 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[5.0.11, )"
+          },
           "Microsoft.EntityFrameworkCore.Tools": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",

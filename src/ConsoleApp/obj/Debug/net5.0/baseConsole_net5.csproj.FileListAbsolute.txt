@@ -98,7 +98,6 @@ C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\obj\Debug\net5.0\
 C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\obj\Debug\net5.0\ref\baseConsole_net5.dll
 C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\obj\Debug\net5.0\baseConsole_net5.pdb
 C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\obj\Debug\net5.0\baseConsole_net5.genruntimeconfig.cache
-C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\appsettings.json
 C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\Services.dll
 C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\Services.pdb
 C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\Humanizer.dll
@@ -115,3 +114,4 @@ C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\
 C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\Orm.DataBase.dll
 C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\Models.Domain.pdb
 C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\Orm.DataBase.pdb
+C:\Users\aratar79\source\repos\baseConsole_net5\src\ConsoleApp\bin\Debug\net5.0\appsettings.json
