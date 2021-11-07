@@ -64,5 +64,10 @@ namespace Services
             Console.ReadKey();
 
         }
+
+        public bool RunTest()
+        {
+            return true;
+        }
     }
 }
