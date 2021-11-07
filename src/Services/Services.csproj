@@ -12,6 +12,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Models.Domain\Models.Domain.csproj" />
     <ProjectReference Include="..\Orm.DataBase\Orm.DataBase.csproj" />
+    <ProjectReference Include="..\Models.DTOS\Models.DTOS.csproj" />
   </ItemGroup>
 
 </Project>

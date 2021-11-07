@@ -253,6 +253,16 @@
         "runtime": {
           "bin/placeholder/Models.Domain.dll": {}
         }
+      },
+      "Models.DTOS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Models.DTOS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.DTOS.dll": {}
+        }
       }
     }
   },
@@ -796,12 +806,19 @@
       "type": "project",
       "path": "../Models.Domain/Models.Domain.csproj",
       "msbuildProject": "../Models.Domain/Models.Domain.csproj"
+    },
+    "Models.DTOS/1.0.0": {
+      "type": "project",
+      "path": "../Models.DTOS/Models.DTOS.csproj",
+      "msbuildProject": "../Models.DTOS/Models.DTOS.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.EntityFrameworkCore >= 5.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.11",
+      "Microsoft.EntityFrameworkCore.Relational >= 5.0.11",
+      "Models.DTOS >= 1.0.0",
       "Models.Domain >= 1.0.0",
       "Pomelo.EntityFrameworkCore.MySql >= 5.0.2"
     ]
@@ -845,6 +862,9 @@
           "projectReferences": {
             "C:\\Users\\aratar79\\source\\repos\\baseConsole_net5\\src\\Models.Domain\\Models.Domain.csproj": {
               "projectPath": "C:\\Users\\aratar79\\source\\repos\\baseConsole_net5\\src\\Models.Domain\\Models.Domain.csproj"
+            },
+            "C:\\Users\\aratar79\\source\\repos\\baseConsole_net5\\src\\Models.DTOS\\Models.DTOS.csproj": {
+              "projectPath": "C:\\Users\\aratar79\\source\\repos\\baseConsole_net5\\src\\Models.DTOS\\Models.DTOS.csproj"
             }
           }
         }
@@ -866,6 +886,10 @@
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[5.0.11, )"
+          },
+          "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[5.0.11, )"
           },

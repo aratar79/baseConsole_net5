@@ -7,6 +7,8 @@ using Serilog;
 using Services;
 using Microsoft.EntityFrameworkCore;
 using Orm.DataBase;
+using Services.Classes;
+using Services.Interfaces;
 
 namespace baseConsole_net5
 {
@@ -51,6 +53,7 @@ namespace baseConsole_net5
                             services.AddDbContext<ApplicationDBContext>(options => options.UseMySql(configuration.GetConnectionString("DefaultConnection"), MySqlServerVersion.LatestSupportedServerVersion));
 
                             services.AddTransient<MainService>();
+                            services.AddTransient<IModelService, ModelService>();
                         })
                         .UseSerilog()
                         .Build();

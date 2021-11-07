@@ -718,11 +718,23 @@
           "bin/placeholder/Models.Domain.dll": {}
         }
       },
+      "Models.DTOS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Models.DTOS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.DTOS.dll": {}
+        }
+      },
       "Orm.DataBase/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.11",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.11",
+          "Models.DTOS": "1.0.0",
           "Models.Domain": "1.0.0",
           "Pomelo.EntityFrameworkCore.MySql": "5.0.2"
         },
@@ -737,6 +749,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
+          "Models.DTOS": "1.0.0",
           "Models.Domain": "1.0.0",
           "Orm.DataBase": "1.0.0",
           "Serilog.Extensions.Hosting": "4.1.2",
@@ -2011,6 +2024,11 @@
       "path": "../Models.Domain/Models.Domain.csproj",
       "msbuildProject": "../Models.Domain/Models.Domain.csproj"
     },
+    "Models.DTOS/1.0.0": {
+      "type": "project",
+      "path": "../Models.DTOS/Models.DTOS.csproj",
+      "msbuildProject": "../Models.DTOS/Models.DTOS.csproj"
+    },
     "Orm.DataBase/1.0.0": {
       "type": "project",
       "path": "../Orm.DataBase/Orm.DataBase.csproj",
@@ -2025,6 +2043,7 @@
   "projectFileDependencyGroups": {
     "net5.0": [
       "Microsoft.EntityFrameworkCore.Design >= 5.0.11",
+      "Microsoft.EntityFrameworkCore.Relational >= 5.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 5.0.11",
       "Microsoft.Extensions.Hosting >= 5.0.0",
       "Orm.DataBase >= 1.0.0",
@@ -2093,6 +2112,10 @@
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
+            "target": "Package",
+            "version": "[5.0.11, )"
+          },
+          "Microsoft.EntityFrameworkCore.Relational": {
             "target": "Package",
             "version": "[5.0.11, )"
           },

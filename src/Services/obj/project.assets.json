@@ -39,10 +39,10 @@
           "lib/netstandard2.0/_._": {}
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/5.0.10": {
+      "Microsoft.EntityFrameworkCore.Relational/5.0.11": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.10",
+          "Microsoft.EntityFrameworkCore": "5.0.11",
           "Microsoft.Extensions.Configuration.Abstractions": "5.0.0"
         },
         "compile": {
@@ -358,11 +358,23 @@
           "bin/placeholder/Models.Domain.dll": {}
         }
       },
+      "Models.DTOS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Models.DTOS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.DTOS.dll": {}
+        }
+      },
       "Orm.DataBase/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.11",
+          "Microsoft.EntityFrameworkCore.Relational": "5.0.11",
+          "Models.DTOS": "1.0.0",
           "Models.Domain": "1.0.0",
           "Pomelo.EntityFrameworkCore.MySql": "5.0.2"
         },
@@ -418,17 +430,17 @@
         "microsoft.entityframeworkcore.analyzers.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Relational/5.0.10": {
-      "sha512": "3l7GA+0y5E3kDOl85KRHhC0zXYA/CyQBQqDXvFGkqYzdPMRyWQkaQz2+yN4CN/SC+TVa48FPIAc2Wim8aWAliQ==",
+    "Microsoft.EntityFrameworkCore.Relational/5.0.11": {
+      "sha512": "6JLLJbi5Rh2LicrGi7nnhbmkQGCKi72uhjlAY/ozJr6cJdHOaMCUeWfglgrXUwvA5C+oE814eOxjeTdEF9oTyQ==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.relational/5.0.10",
+      "path": "microsoft.entityframeworkcore.relational/5.0.11",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.dll",
         "lib/netstandard2.1/Microsoft.EntityFrameworkCore.Relational.xml",
-        "microsoft.entityframeworkcore.relational.5.0.10.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.5.0.11.nupkg.sha512",
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
@@ -1000,6 +1012,11 @@
       "path": "../Models.Domain/Models.Domain.csproj",
       "msbuildProject": "../Models.Domain/Models.Domain.csproj"
     },
+    "Models.DTOS/1.0.0": {
+      "type": "project",
+      "path": "../Models.DTOS/Models.DTOS.csproj",
+      "msbuildProject": "../Models.DTOS/Models.DTOS.csproj"
+    },
     "Orm.DataBase/1.0.0": {
       "type": "project",
       "path": "../Orm.DataBase/Orm.DataBase.csproj",
@@ -1008,6 +1025,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Models.DTOS >= 1.0.0",
       "Models.Domain >= 1.0.0",
       "Orm.DataBase >= 1.0.0",
       "Serilog.Extensions.Hosting >= 4.1.2",
@@ -1053,6 +1071,9 @@
           "projectReferences": {
             "C:\\Users\\aratar79\\source\\repos\\baseConsole_net5\\src\\Models.Domain\\Models.Domain.csproj": {
               "projectPath": "C:\\Users\\aratar79\\source\\repos\\baseConsole_net5\\src\\Models.Domain\\Models.Domain.csproj"
+            },
+            "C:\\Users\\aratar79\\source\\repos\\baseConsole_net5\\src\\Models.DTOS\\Models.DTOS.csproj": {
+              "projectPath": "C:\\Users\\aratar79\\source\\repos\\baseConsole_net5\\src\\Models.DTOS\\Models.DTOS.csproj"
             },
             "C:\\Users\\aratar79\\source\\repos\\baseConsole_net5\\src\\Orm.DataBase\\Orm.DataBase.csproj": {
               "projectPath": "C:\\Users\\aratar79\\source\\repos\\baseConsole_net5\\src\\Orm.DataBase\\Orm.DataBase.csproj"
